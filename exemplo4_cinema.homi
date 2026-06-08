@@ -1,0 +1,5 @@
+QUANDO input_boolean.modo_cinema ESTADO "on"
+FACA light.sala_estar DESLIGAR
+FACA media_player.tv_sala LIGAR
+FACA light.fita_led_tv LIGAR
+FIM

@@ -1,0 +1,4 @@
+QUANDO sensor.temperatura_quarto ESTADO "30"
+E SE climate.ar_condicionado_quarto ESTADO "off"
+FACA fan.quarto LIGAR
+FIM

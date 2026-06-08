@@ -1,0 +1,3 @@
+QUANDO binary_sensor.presenca > "25"
+FACA light.espelho LIGAR
+FIM

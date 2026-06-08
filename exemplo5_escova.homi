@@ -1,0 +1,5 @@
+QUANDO sensor.triumph_v2_90f2 ESTADO "charging"
+E SE binary_sensor.presenca_banheiro ESTADO "on"
+FACA light.espelho_banheiro LIGAR
+FACA switch.carregador_escova LIGAR
+FIM

@@ -1,0 +1,4 @@
+QUANDO binary_sensor.corredor_suite_luminance_motion_sensor_movimento ESTADO "on"
+E SE alarm_control_panel.alarmo ESTADO "disarmed"
+FACA light.corda_led_corredor LIGAR
+FIM

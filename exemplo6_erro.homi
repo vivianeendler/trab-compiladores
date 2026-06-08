@@ -1,0 +1,3 @@
+QUANDO binary_sensor.movimento ESTADO "on"
+FACA sensor.temperatura LIGAR
+FIM
